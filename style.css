@@ -77,21 +77,6 @@ h1{
     color: #ffffff;
 }
 
-/* Style the button that is used to open and close the collapsible content */
-.collapsible {
-  display: block;
-  background-color: var(--accentColor);
-  color: var(--bgColor);
-  font-family: var(--font);
-  text-align: center;
-  margin-bottom: 20px;
-  padding: 17px;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: all .25s cubic-bezier(.08,.59,.29,.99);
-  border-radius: 25px;
- }
-
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #3b6978;
