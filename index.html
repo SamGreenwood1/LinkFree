@@ -20,9 +20,11 @@
         <a class="link" href="https://github.com/SamGreenwood1/Sams-Scripts" target="_blank">My Linux Scripts GitHub repo</a>
         <a class="link" href="mailto:sam@samgreenwood.ca" target="_blank">Email Me</a>
         <button type="button" class="collapsible">Open Collapsible</button>
-            <div class="content">
-                <p>Lorem ipsum...</p>
-            </div>
+        <details>
+          <summary>Epcot Center</summary>
+          <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </details>
+
     </div>
     
 
@@ -46,21 +48,23 @@
 
 </body>
     
-    <script>
-    collapsiblevar coll = document.getElementsByClassName("collapsible");
-    var i;
+<html>
+<style>
+details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
 
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-          content.style.display = "none";
-        } else {
-          content.style.display = "block";
-        }
-      });
-    }
- </script>
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+</style>
     
 </html>
