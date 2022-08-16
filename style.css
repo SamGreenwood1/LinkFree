@@ -80,6 +80,10 @@ h1{
     color: #ffffff;
 }
 
+details summary {
+    cursor: pointer;
+}
+
 .link1 {
     display: block;
     background-color: var(--internal-link);
@@ -92,8 +96,8 @@ h1{
     font-size: 1rem;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
     border-radius: 25px;
-  }
+}
 
   .link1:hover{
       background-color: var(--internal-hover);
-  }
+}
